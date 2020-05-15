@@ -6,7 +6,7 @@
       "sourceMap": true,
       "allowJs": false,
       "jsx": "react",
-      "types": ["react"],
+      "types": ["react", "jest"],
       "moduleResolution": "node",
       "rootDirs": ["library"],
       "baseUrl": "library",
@@ -22,6 +22,6 @@
       "experimentalDecorators": true,
       "esModuleInterop": true
     },
-    "include": [".storybook/**/*", "src/**/*"],
+    "include": [".storybook/**/*", "src/**/*", "test/fileMock.js"],
     "exclude": ["node_modules"]
   }

@@ -9,8 +9,6 @@
       "check-format",
       "allow-pascal-case"
     ],
-    "import-name": [true, {
-        "react": "React"
-    }]
+    "import-name": [true, { "react": "React" }]
   }
 }
